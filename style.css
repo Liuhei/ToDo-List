@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ffba73;
+    font-family: 'Readex Pro', sans-serif;
+}
+.title-container{
+    text-align: center;
+    color: #fff;
+    margin: 3rem 0 1rem;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 9vh;
+    margin: 0 0 1rem;
+}
+input, button{
+    border: none;
+    font-size: 20px;
+    padding: 0.8rem;
+}
+.plus-btn{
+    background: orange;
+}
+
+/*CARDS*/
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    min-width: 40%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin: 0 0 0.5rem;
+}
+li {
+    padding: 0.7rem;
+    list-style: none;
+    flex: 1;
+}
+.green-btn{
+    background: #33d100;
+    color: #fff;
+}
+.red-btn {
+    background: #ff5d5d;
+    color: #fff;
+}
+.fa-check, .fa-trash {
+    pointer-events: none;
+}
+.completed {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.trash{
+    opacity: 0;
+    transform: translateX(170px);
+    transition: all 0.5s;
+}
+.filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    margin: 0 1rem 0 0.2rem;
+}

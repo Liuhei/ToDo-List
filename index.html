@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>YOSHI's ToDo List</title>
+</head>
+<body>
+    <div class="title-container">
+        <h1>Yoshi's ToDo List!</h1>
+    </div>
+    <form class="form">
+        <input type="text" class="input" placeholder="Enter your task!">
+        <button class="plus-btn"><i class="fas fa-plus-square"></i></button>
+    </form>
+    <form class="filter-container">
+        <input type="radio" name="filter" class="filter-all">
+        <label for="all">All</label>
+        <input type="radio" name="filter" class="filter-completed">
+        <label for="completed">Completed!</label>
+        <input type="radio" name="filter" class="filter-not-yet">
+        <label for="not-yet">Not yet...</label>
+    </form>
+    <div class="list-container">
+        <ul class="list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!-- js
+<div class="card">
+    <li class="list-item">Eat chicken!</li>
+    <button class="green-btn"><i class="fas fa-check"></i></button>
+    <button class="red-btn"><i class="fas fa-trash"></i></button>
+</div> -->
